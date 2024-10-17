@@ -1,52 +1,127 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Salão Lisa Moraes - Outubro Rosa</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Promoções Outubro Rosa - Lisa Moraes Centro de Beleza</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://static.elfsight.com/platform/platform.js" async></script>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
 </head>
-<body>
-  <header>
-    <h1>Promoções de Outubro Rosa - Lisa Moraes Centro de Beleza</h1>
-    <button onclick="location.href='#promocoes'">Aproveite as Ofertas</button>
-  </header>
+<body class="bg-white text-gray-800">
 
-  <section id="sobre">
-    <h2>Sobre Lisa Moraes</h2>
-    <p>Com mais de 23 anos de experiência no ramo da beleza, Lisa Moraes é uma cabeleireira reconhecida
-    pela sua dedicação em elevar a autoestima e cuidar da saúde e beleza de suas clientes. Venha viver uma experiência única.</p>
-    <img src="https://ibb.co/1JcHW9R" alt="Lisa Moraes">
+  <!-- Hero Section -->
+  <section class="bg-pink-400 text-white py-16 text-center">
+    <h1 class="text-5xl font-bold">Promoções de Outubro Rosa</h1>
+    <p class="mt-4 text-xl">Cuide de sua beleza e autoestima com as ofertas especiais do mês de Outubro.</p>
+    <a href="#promocoes" class="mt-6 inline-block bg-white text-pink-400 px-8 py-4 rounded-full text-lg font-semibold hover:bg-pink-500 hover:text-white transition">Aproveite as Ofertas</a>
   </section>
 
-  <section id="promocoes">
-    <h2>Promoções de Outubro Rosa</h2>
-    <div class="promo">
-      <h3>Botox Capilar + Ozonioterapia</h3>
-      <p>De: R$ 150,00 <br> Por: R$ 79,90</p>
-      <img src="https://ibb.co/zbBF4Vb" alt="Botox Capilar">
-    </div>
-    <div class="promo">
-      <h3>Manicure + Pedicure + Nutrição Loucas e Lisas</h3>
-      <p>Preço: R$ 114,90</p>
-      <img src="https://ibb.co/XVg60bm" alt="Manicure e Pedicure">
-    </div>
-    <div class="promo">
-      <h3>Semidefinitiva Orgânica</h3>
-      <p>De: R$ 250,00 <br> Por: R$ 149,90</p>
-      <img src="https://ibb.co/P5xLNJG" alt="Semidefinitiva Orgânica">
-    </div>
-    <div class="promo">
-      <h3>Limpeza de Pele Completa + Brinde Design de Sobrancelha</h3>
-      <p>Preço: R$ 79,90</p>
-      <img src="https://ibb.co/mRqXVw7" alt="Limpeza de Pele">
+  <!-- Promoções Section -->
+  <section id="promocoes" class="py-12 px-4 bg-gray-100">
+    <h2 class="text-3xl font-bold text-center text-pink-500 mb-8">Promoções do Mês (Outubro Rosa)</h2>
+
+    <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center">
+        <img src="file_path_da_imagem" alt="Botox Capilar + Ozonioterapia" class="w-full h-64 object-cover rounded-md">
+        <h3 class="mt-4 text-2xl font-bold text-pink-500">Botox Capilar + Ozonioterapia</h3>
+        <p class="mt-2 text-lg line-through text-gray-500">De: R$ 150,00</p>
+        <p class="text-lg text-pink-600 font-bold">Por: R$ 79,90</p>
+        <p class="mt-2 text-sm text-gray-500">Em dinheiro ou pix para cabelos curtos e médios</p>
+      </div>
     </div>
   </section>
 
-  <footer>
-    <p>Contato: (55) 99921-8454 | lisademoraes@yahoo.com.br</p>
-    <p>Endereço: Lisa Moraes Centro de Beleza</p>
+  <!-- Sobre Lisa Moraes Section -->
+  <section class="py-12 px-4 bg-white">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-8 text-pink-500">Sobre Lisa Moraes</h2>
+      <div class="flex flex-col md:flex-row items-center">
+        <img src="https://ibb.co/1JcHW9R" alt="Lisa Moraes" class="w-48 h-48 rounded-full object-cover mb-4 md:mb-0 md:mr-6">
+        <p class="text-lg">Com mais de 23 anos de experiência no ramo da beleza, Lisa Moraes é uma cabeleireira reconhecida por sua dedicação em elevar a autoestima e cuidar da saúde e beleza de suas clientes...</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Serviços Section -->
+  <section class="py-12 px-4 bg-gray-100">
+    <h2 class="text-3xl font-bold text-center mb-8 text-pink-500">Serviços Oferecidos</h2>
+    <div class="max-w-4xl mx-auto">
+      <ul class="list-disc list-inside">
+        <li class="text-lg"><strong>Corte:</strong> Corte simples, Corte com escova, Corte bordado.</li>
+        <li class="text-lg"><strong>Escovas e Tratamentos Alisantes:</strong> Escova Modelada, Semi Definitiva, Progressiva.</li>
+        <li class="text-lg"><strong>Tratamentos de Recuperação:</strong> Selagem Capilar, Blindagem Indiana, Reconstrução, Nanoqueratina.</li>
+        <li class="text-lg"><strong>Hidratação e Nutrição:</strong> Hidratação, Nutrição Capilar.</li>
+        <li class="text-lg"><strong>Terapias Capilares:</strong> Massagem, Ozonioterapia, Terapia Quelante, Photon Laser.</li>
+        <li class="text-lg"><strong>Coloração e Mechas:</strong> Matização, Mechas, Coloração Completa.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Produtos em Destaque Section -->
+  <section class="py-12 px-4 bg-white">
+    <h2 class="text-3xl font-bold text-center mb-8 text-pink-500">Produtos em Destaque</h2>
+    <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+        <img src="https://ibb.co/Z6wXd4C" alt="Batom Líquido Matte At Play™" class="w-full h-48 object-cover rounded-md">
+        <h3 class="mt-4 text-2xl font-bold text-pink-500">Batom Líquido Matte At Play™</h3>
+        <p class="text-lg text-pink-600">R$ 33,90</p>
+      </div>
+      <!-- Outros produtos -->
+    </div>
+  </section>
+
+  <!-- Agendamento Section -->
+  <section class="py-12 px-4 bg-gray-100 text-center">
+    <h2 class="text-3xl font-bold mb-4 text-pink-500">Agendamento</h2>
+    <a href="https://api.whatsapp.com/send/?phone=5555999218454&text&type=phone_number&app_absent=0" class="inline-block bg-blue-500 text-white px-6 py-3 rounded-full text-lg">Agende seu Horário</a>
+    <p class="mt-4 text-lg">Pagamento antecipado de 50% para promoções via Pix. Tolerância de atraso de 10 minutos.</p>
+  </section>
+
+  <!-- Grupo VIP Section -->
+  <section class="py-12 px-4 bg-white text-center">
+    <h2 class="text-3xl font-bold mb-4 text-pink-500">Entre no Grupo VIP</h2>
+    <a href="https://chat.whatsapp.com/KH5TCYYVsyoDZAH9m9S3gv" class="inline-block bg-green-500 text-white px-6 py-3 rounded-full text-lg">Acesse o Grupo VIP no WhatsApp</a>
+  </section>
+
+  <!-- Testemunhos Section -->
+  <section class="py-12 px-4 bg-white">
+    <h2 class="text-3xl font-bold text-center mb-8 text-pink-500">Provas Sociais (Depoimentos)</h2>
+    <div class="max-w-4xl mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+          <h3 class="text-2xl font-bold text-pink-500">Avaliação do Google</h3>
+          <p class="mt-4 text-lg">"Atendimento maravilhoso! A Lisa e sua equipe são extremamente atenciosas..."</p>
+          <a href="https://g.page/r/CfBrdD-_UIzaEAE" target="_blank" class="text-pink-600 underline mt-4 inline-block">Ver avaliação completa no Google</a>
+        </div>
+        <!-- Outros depoimentos -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Instagram Widget -->
+  <section class="py-12 px-4 bg-gray-100 text-center">
+    <h2 class="text-3xl font-bold mb-4 text-pink-500">Acompanhe no Instagram</h2>
+    <div class="elfsight-app-080de5f3-d5aa-4697-a86e-3191693970f0" data-elfsight-app-lazy></div>
+  </section>
+
+  <!-- Contatos Section -->
+  <section class="py-12 px-4 bg-gray-100 text-center">
+    <h2 class="text-3xl font-bold mb-4 text-pink-500">Contatos e Redes Sociais</h2>
+    <p class="text-lg">E-mail: lisademoraes@yahoo.com.br</p>
+    <p class="text-lg">Telefone: (55) 99921-8454</p>
+    <p class="text-lg">Facebook: Lisa Moraes Centro de Beleza</p>
+    <p class="text-lg">WhatsApp: (55) 99921-8454</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-8 text-center">
+    <p>&copy; 2024 Lisa Moraes Centro de Beleza. Todos os direitos reservados.</p>
   </footer>
+
 </body>
 </html>
